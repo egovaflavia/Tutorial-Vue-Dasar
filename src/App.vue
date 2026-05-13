@@ -1,7 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import EventClick from './components/EventClick.vue';
+import EventClickInline from './components/EventClickInline.vue';
+import EvenInput from './components/EvenInput.vue';
 </script>
 
 <template>
-  <HelloWorld />
+  <!-- <EventClick /> -->
+  <!-- <EventClickInline /> -->
+  <EvenInput />
 </template>
