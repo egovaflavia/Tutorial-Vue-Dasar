@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+## Computed Properties
+Computed properties adalah nilai turunan yang dihitung berdasarkan data atau properti lain.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Keunggulan computed properties:
+- Otomatis chache
+- Cocok untuk logika yang kompleks
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Watcher
+Watcher adalah fungsi yang dijalankan ketika data atau properti tertentu berubah.
+
+Computed menghasilkan nilai baru
+Watcher menjalankan fungsi ketika data berubah, tetapi tidak menghasilkan nilai baru.
+
+Kapan menggunakan computed properties vs watcher?
+- Gunakan computed properties untuk nilai turunan yang bergantung pada data lain.
+- Gunakan watcher untuk menjalankan fungsi atau efek samping ketika data berubah.
